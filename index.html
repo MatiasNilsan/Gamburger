@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Burger</title>
+</head>
+<body>
+  <div class="container">
+    <div class="size">
+      <h2>Выберите размер бургера</h2>
+      <input name="size" type="radio" checked data-price="100" data-cal="40">Большой бургер, 100 рублей, 40 каллорий</br>
+      <input name="size" type="radio" data-price="50" data-cal="20">Маленький бургер, 50 рублей, 20 каллорий</br>
+    <div class="filling">
+      <h3>Выберите начинку</h3>
+      <input name="filling" type="radio" data-price="10" data-cal="20" checked>С сыром, 10 рублей, 20 каллорий</br>
+      <input name="filling" type="radio" data-price="20" data-cal="5">С салатом, 20 рублей, 5 каллорий</br>
+      <input name="filling" type="radio" data-price="15" data-cal="10">С картофелем, 15 рублей, 10 каллорий</br>
+    <div class="toppings">
+      <h3>Выберите приправу</h3>
+      <input name="season" type="checkbox" data-price="15" data-cal="0" >С приправой, 15 рублей, 0 каллорий</br>
+      <input name="mayo" type="checkbox" data-price="20" data-cal="5" >С майонезом, 20 рублей, 5 каллорий</br>
+    <div class="calc">
+      <button class="calc-btn">Собрать бургер</button>
+      <p class="calc-price">0 рублей</p>
+      <p class="calc-cal">0 каллорий</p>
+    </div>
+    </div>
+    </div>
+    </div>  
+  </div>
+<script src="script.js"></script>
+</body>
+</html>
